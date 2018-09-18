@@ -21,19 +21,31 @@ function whileLoop(n) {
   return 'done'
 }
 
+<<<<<<< HEAD
 
+=======
+var i = 0;
+>>>>>>> 59f0299369f9a08378f9d536327df6029b627ed2
 
 
 
 function doWhileLoop(array) {
   
   function incrementVariable() {
+<<<<<<< HEAD
   array.length = array.length - 1;
+=======
+  i = array.length > 0 && incrementVariable()
+>>>>>>> 59f0299369f9a08378f9d536327df6029b627ed2
 }
   
   do {
     incrementVariable();
+<<<<<<< HEAD
   } while (array.length > 0 && incrementVariable());
+=======
+  } while ( array.length > 0 && incrementVariable());
+>>>>>>> 59f0299369f9a08378f9d536327df6029b627ed2
 
 return array  
 
